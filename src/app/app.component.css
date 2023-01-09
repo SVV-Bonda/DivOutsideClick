@@ -1,3 +1,10 @@
-p {
-  font-family: Lato;
+.myDiv{
+  width: 150px;
+  height: 150px;
+  background-color: yellowgreen;
+  border: 2px solid black;
+}
+.div1{
+  text-align: center;
+ margin-top: 60px;
 }

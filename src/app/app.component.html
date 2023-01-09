@@ -1,7 +1,10 @@
 <button type="button" #divButton (click)="OpenDiv()">Click Vijju!</button>
-<div *ngIf="openDivpop" #openDiv appOutSideClick (onClickOutside)="outClick($event)">
-    <div class="rednote-popup">
-      <i class="fa-solid fa-xmark"></i>
-      <span>Hello Mr.Vijju</span>
-    </div>
+<div
+  class="myDiv"
+  *ngIf="openDivpop"
+  #openDiv
+  appOutSideClick
+  (onClickOutside)="outClick($event)"
+>
+  <div class="div1">Hello Mr.Vijju</div>
 </div>
